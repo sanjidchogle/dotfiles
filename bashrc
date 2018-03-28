@@ -21,7 +21,7 @@ function mk() {
 }
 
 # Alias
-alias ls="ls -la"       # List in long format, include dotfiles
+alias ls="ls -la --color=auto"       # List in long format, include dotfiles
 alias ld="ls -ld */"   # List in long format, only directories
 alias ..="cd .."
 alias ...="cd ../.."
