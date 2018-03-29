@@ -9,12 +9,6 @@ fi
 # export SYSTEMD_PAGER=
 
 # User specific aliases and functions
-mount-cifs() {
-    sudo mount.cifs -o user=schogle,domain=nvidia.com $1 $2
-}
-mount-wsqa() {
-    mount-cifs //netapp-pu02/gpu_sw_wsqa_twinpeaks/ /mnt/wsqa_twinpeaks
-}
 # Create a new directory and enter it
 function mk() {
   mkdir -p "$@" && cd "$@"
